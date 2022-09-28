@@ -22,7 +22,7 @@ a { color:#333 !important; }
 .main-third { position:relative; height:1200px; background:url('/lineblur/common/images/bg-diagonals3.png') center top no-repeat; }
 .main-fourth { position:relative; height:1000px; background:#453b34; }
 
-.all_wrap{ position:relative; width:100%; min-width:1000px; height:100%; overflow:auto; overflow-x:hidden; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+.all_wrap{ position:relative; width:100%; min-width:1000px; overflow:auto; overflow-x:hidden; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
 
 .header_title { position:absolute; width:200px; height:30px; }
 
