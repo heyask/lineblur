@@ -1,0 +1,26 @@
+name: "react deploy"
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - name: Install Packages
+        run: npm install -g gh-pages pnpm
+      - name: Install Project Dependencies
+        run: pnpm i
+      - name: Deploy
+        run:  |
+          git config user.name "$USERNAME"
+          git config user.email "$EMAIL"
+          git remote set-url origin https://heyask:$GITHUB_TOKEN@github.com/heyask/lineblur.git
+          npm run deploy
+        env:
+          USERNAME: ${{ secrets.GITHUB_TOKEN }}
+          EMAIL: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
