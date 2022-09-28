@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lineblur/static/css/main.073c9b0a.css",
+    "main.js": "/lineblur/static/js/main.d4664038.js",
+    "static/js/787.28cb0dcd.chunk.js": "/lineblur/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/lineblur/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lineblur/index.html",
+    "main.073c9b0a.css.map": "/lineblur/static/css/main.073c9b0a.css.map",
+    "main.d4664038.js.map": "/lineblur/static/js/main.d4664038.js.map",
+    "787.28cb0dcd.chunk.js.map": "/lineblur/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d4664038.js"
+  ]
+}
