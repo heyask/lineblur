@@ -1,0 +1,46 @@
+@font-face { font-family:'Pretendard'; }
+html, body { height:100%; font-family:'Pretendard';
+scrollbar-face-color: #eaeaea;
+scrollbar-shadow-color: #d5d5d5;
+scrollbar-highlight-color:#f1f1f1;
+scrollbar-3dlight-color: #f1f1f1;
+scrollbar-darkshadow-color: #fff;
+scrollbar-track-color: #fff;
+scrollbar-arrow-color: #fff;
+}
+a { color:#333 !important; }
+
+
+::-webkit-scrollbar {width: 5px;}
+::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); -webkit-border-radius: 10px; border-radius: 10px; }
+::-webkit-scrollbar-thumb { -webkit-border-radius: 10px; border-radius: 10px; background: rgba(224,224,224,0.8); -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); }
+::-webkit-scrollbar-thumb:window-inactive { background: rgba(224,224,224,0.4); }
+
+
+.main-first { position:relative; overflow:hidden; height:1500px; background:url('/common/images/bg-diagonals.png') center top no-repeat; }
+.main-second { position:relative; height:1500px; background:url('/common/images/bg-diagonals2.png') center top no-repeat; background-color:#3f3f3f; }
+.main-third { position:relative; height:1200px; background:url('/common/images/bg-diagonals3.png') center top no-repeat; }
+.main-fourth { position:relative; height:1000px; background:#453b34; }
+
+.all_wrap{ position:relative; width:100%; min-width:1000px; height:100%; overflow:auto; overflow-x:hidden; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+
+.header_title { position:absolute; width:200px; height:30px; }
+
+h1 { margin-bottom:10px; }
+
+.intro_container { position:absolute; width:900px; top:200px; left:50%; margin-left:-450px; color:#f1f1f1; }
+.gallery_container { position:absolute; width:590px; top:0px; left:50%; margin-left:-170px; /* bottom:0px; padding-left:20px; padding-right:20px;*/ }
+.youtube_container { position:absolute; width:590px; bottom:0px; left:50%; margin-left:-485px; /* bottom:0px; padding-left:20px; padding-right:20px;*/ }
+.youtube_container h3 { margin-bottom:5px; }
+.youtube_container ul { list-style:none; margin-left:0px; }
+.youtube_container ul li { list-style:none; margin-bottom:10px; }
+.youtube_container ul li img { width:130px }
+
+.youtube_container2 { position:absolute; width:590px; top:10px; left:50%; margin-left:-100px; /* bottom:0px; padding-left:20px; padding-right:20px;*/ }
+.youtube_container2 h3 { margin-bottom:5px; }
+.youtube_container2 ul { list-style:none; margin-left:0px; }
+.youtube_container2 ul li { list-style:none; margin-bottom:10px; }
+.youtube_container2 ul li img { width:130px }
+
+.intro_container2 { position:absolute; width:800px; top:550px; left:50%; margin-left:-320px; }
+.intro_container2 h3 { margin-bottom:10px; }
